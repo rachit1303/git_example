@@ -1,0 +1,10 @@
+function swap(num1,num2){
+    let a= num1;
+    let b= num2;
+    a = num1+num2;
+    b = a-b;
+    a= a-b;
+
+    console.log(`a= ${a} and b=${b}`);
+
+}
